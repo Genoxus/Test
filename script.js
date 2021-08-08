@@ -1,11 +1,11 @@
-const burgerIcon = document.getElementById('burger-icon');
-const burger = document.getElementById('burger');
+const burger = document.querySelector(".burger");
+const menu = document.querySelector(".menu");
 
-// Get value of label and input
-// add Action listener for label
-// if checkbox is check
+burger.addEventListener('click', e => {
+    console.log(burger);
+    menu.classList.toggle("invisible");
+});
 
-burger.addEventListener('click', display);
 
 
 
